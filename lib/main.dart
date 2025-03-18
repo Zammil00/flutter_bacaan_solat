@@ -1,3 +1,5 @@
+import 'package:bacaan_solat/pages/main_page.dart';
+import 'package:bacaan_solat/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +11,6 @@ class LabilApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashPage());
   }
 }
